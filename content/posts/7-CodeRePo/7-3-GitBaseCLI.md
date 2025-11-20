@@ -116,36 +116,3 @@ git remote remove origin
 git remote -v
 ```
 
-## 关于 token
-
-### 个人 token生成
-
-> 点击个人头像>>settings>>Developer Settings
-
-![image-20251120112104005](https://cdn.jsdelivr.net/gh/dearRongerr/PicGo@main/202511201345613.png) 
-
-> 选经典
-
-![image-20251120112241441](https://cdn.jsdelivr.net/gh/dearRongerr/PicGo@main/202511201345614.png)
-
-> note 随便填，中文也行，选作用范围：仓库和工作流
-
-![image-20251120112418704](https://cdn.jsdelivr.net/gh/dearRongerr/PicGo@main/202511201345616.png) 
-
-> 然后拉到最后，选生成就行，记得保存好个人token，只生成一次
-
-### 个人 token使用
-
-> token 不能显式出现在文件中（不知道，反正泄露可能不安全），设置为环境变量更安全
-
-这里，在哪儿使用这个 token，就在哪个仓库操作
-
-> 点击某个仓库>>settings>>secrets and variables>>actions>>new repo secret
-
-![image-20251120113526412](https://cdn.jsdelivr.net/gh/dearRongerr/PicGo@main/202511201345617.png)
-
-> Name 填大写 英文命名
->
-> Secret 把自己生成的个人token 粘贴过来
-
-![image-20251120113728630](https://cdn.jsdelivr.net/gh/dearRongerr/PicGo@main/202511201345618.png)

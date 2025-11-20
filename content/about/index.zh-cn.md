@@ -7,6 +7,8 @@ draft: false
 ### Hi~ 👋
 
 - 😂 瞎折腾主义
+- 🙂‍↔️ 保持乐观，保持坚强
+- 💪 生活朝我扔泥巴，我拿泥巴堆泥人
 - 📫 我的邮箱: 1939472345@qq.com （交流学习~）
 - ⌨️ 我的Github账户 https://github.com/dearRongerr （还在摸索~）
 
@@ -15,12 +17,6 @@ draft: false
   <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=dearRongerr&layout=compact&theme=onedark" width="42%"/>
 </div>
 
----
-
-<a href="https://github.com/ryo-ma/github-profile-trophy">
-  <img width=800 src="https://github-profile-trophy.vercel.app/?username=dearRongerr&row=1&theme=onedark&margin-w=10&no-frame=true"/>
-</a>
-  
 ---
 
 [![GitHub followers](https://img.shields.io/github/followers/dearRongerr?style=social)](https://github.com/dearRongerr?tab=followers)

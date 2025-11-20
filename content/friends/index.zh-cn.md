@@ -10,7 +10,7 @@ comment: false
 ---
 ---
 🙂‍↔️ 这些是我的拙劣产出 :
-- 点击这里查看我的随笔（based on 语雀）：[https://www.yuque.com/ruuna/tonto](https://www.yuque.com/ruuna/tonto)
+- 这里是我的随手记（based on 语雀）：[https://www.yuque.com/ruuna/tonto](https://www.yuque.com/ruuna/tonto)
 - 这是我的第一个博客（based on [mkdocs](https://www.yuque.com/wcowin/mkdocs-wcowin)）: [https://dearrongerr.github.io/Rongerr.github.io/](https://dearrongerr.github.io/Rongerr.github.io/)
 - 这是我的第二个博客（based on Hugo & FixIt）: [https://dearrongerr.github.io/](https://dearrongerr.github.io/)
 <!-- When you set data `friends.yml` in `yourProject/data/` directory, it will be automatically loaded here. -->

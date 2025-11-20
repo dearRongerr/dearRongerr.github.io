@@ -21,6 +21,6 @@ enableEmoji = true
 enableGitInfo = true
 relativeURLs = false
 buildDrafts = false
-summaryLength = 3
+summaryLength = 1
 # ignore some build errors
 ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
