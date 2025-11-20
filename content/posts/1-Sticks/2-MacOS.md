@@ -6,6 +6,11 @@ math: true
 toc: true
 categories:
   - '📝便签'
+author: 
+  name: 溶 err
+  link:
+  email:
+  avatar:  /images/avatar.jpeg
 tags:
   - MacOs
 ---

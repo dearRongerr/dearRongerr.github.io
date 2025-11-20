@@ -5,6 +5,11 @@ title: 'SENet'
 math: true
 # '深度学习','Statics','Hugo','Python'
 toc: true
+author: 
+  name: 溶 err
+  link:
+  email:
+  avatar:  /images/avatar.jpeg
 categories:
   - '🧚🏻‍♀️ 深度学习'
 ---

@@ -6,6 +6,11 @@ title: 'Hugo 学习笔记'
 description: "随缘装修"
 math: true
 toc: true
+author: 
+  name: 溶 err
+  link:
+  email:
+  avatar:  /images/avatar.jpeg
 series_order: 2       # 文章在系列中的顺序
 categories:
  - '📝便签'

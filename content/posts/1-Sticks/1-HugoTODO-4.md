@@ -9,6 +9,11 @@ math: true
 # series: ["Hugo + Obsidian"]
 series_order: 1       # 文章在系列中的顺序
 toc: true
+author: 
+  name: 溶 err
+  link:
+  email:
+  avatar:  /images/avatar.jpeg
 categories:
   - '📝便签'
 tags:

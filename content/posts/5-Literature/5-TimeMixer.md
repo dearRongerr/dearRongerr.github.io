@@ -4,6 +4,11 @@ draft: false
 title: 2024、TimeMixer
 math: true
 toc: true
+author: 
+  name: 溶 err
+  link:
+  email:
+  avatar:  /images/avatar.jpeg
 categories:
   - '📜文献阅读'
 ---

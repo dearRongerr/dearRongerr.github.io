@@ -40,14 +40,14 @@ disableThemeInject = false
 [author]
   name = "溶 err"
   email = "1939472345@qq.com"
-  link = "https://github.com/dearRongerr.io"
+  link = "https://dearrongerr.github.io/"
   avatar = 'images/avatar.jpeg'
 
 # FixIt 0.3.0 | NEW public Git repository information only then enableGitInfo is true
 [gitInfo]
   # e.g. "https://github.com/hugo-fixit/docs"
   repo = "https://github.com/dearRongerr/dearRongerr_blog"
-  branch = "master"
+  branch = "main"
   # the content directory path relative to the root of the repository
   dir = "content"
   # the issue template for reporting issue of the posts
@@ -143,7 +143,7 @@ disableThemeInject = false
   # whether to show the author
   author = true
   # Site creation year
-  since = 2021
+  since = 2025
   # FixIt 0.2.12 | NEW Public network security only in China (HTML format is supported)
   gov = ""
   # ICP info only in China (HTML format is supported)
@@ -212,7 +212,7 @@ disableThemeInject = false
 
 # FixIt 0.2.17 | NEW TagCloud config for tags page
 [tagcloud]
-  enable = false
+  enable = true
   min = 14 # Minimum font size in px
   max = 32 # Maximum font size in px
   peakCount = 10 # Maximum count of posts per tag
@@ -226,13 +226,13 @@ disableThemeInject = false
     # Gravatar Email for preferred avatar in home page
     gravatarEmail = ""
     # URL of avatar shown in home page
-    avatarURL = "images/avatar.jpeg"
+    avatarURL = "/images/avatar.jpeg"
     # FixIt 0.2.17 | NEW identifier of avatar menu link
     avatarMenu = ""
     # title shown in home page (HTML format is supported)
     title = "溶 err"
     # subtitle shown in home page
-    subtitle = "手里有牌就打牌，手里没牌就抓牌，轮不到抓牌就看牌。"
+    subtitle = "我与太阳肩并肩，热烈而细腻"
     # whether to use typeit animation for subtitle
     typeit = true
     # whether to show social links
@@ -721,7 +721,7 @@ disableThemeInject = false
       versionCheck = true
     # Disqus comment config (https://disqus.com)
     [page.comment.disqus]
-      enable = true
+      enable = false
       # Disqus shortname to use Disqus in posts
       shortname = ""
     # Gitalk comment config (https://github.com/gitalk/gitalk)
@@ -816,11 +816,11 @@ disableThemeInject = false
       katex = false
     # FixIt 0.2.14 | NEW Giscus comments config
     [page.comment.giscus]
-      enable = false
+      enable = true
       repo = "dearRongerr/dearRongerr.github.io"
-      repoId = "R_kgDOHshDDQ"
+      repoId = "R_kgDOQZdn_A"
       category = "Announcements"
-      categoryId = "DIC_kwDOHshDDc4CQYgY"
+      categoryId = "DIC_kwDOQZdn_M4CyADP"
       mapping = "pathname"
       # origin = "https://giscus.app" # FixIt NEW | 0.3.7 Or set it to your self-hosted domain
       strict = "0" # FixIt NEW | 0.2.18
@@ -831,6 +831,7 @@ disableThemeInject = false
       lang = "zh-CN"
       lightTheme = "light"
       darkTheme = "dark_dimmed"
+      crossorigin="anonymous"
       lazyLoad = true
   # Third-party library config
   [page.library]
@@ -850,7 +851,7 @@ disableThemeInject = false
     images = []
     # Publisher info
     [page.seo.publisher]
-      name = "溶 err"
+      name = "dearRongerr err"
       logoUrl = "images/avatar.jpeg"
 
 [customPartials]

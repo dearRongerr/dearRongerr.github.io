@@ -25,7 +25,7 @@ author:
   name: 溶 err
   link:
   email:
-  avatar: images/avatar.jpeg # 可能报错
+  avatar: /images/avatar.jpeg 
 repost:
   enable: true
   url:

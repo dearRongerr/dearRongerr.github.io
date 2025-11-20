@@ -9,6 +9,11 @@ math: true
 # series_order: 1  # 添加此行，用于指定文章在系列中的顺序
 # '注意力机制'  ,  '入门'  ,  'Sticks':注意事项,  'TODO'
 # tags: ['汇总向']
+author: 
+  name: 溶 err
+  link:
+  email:
+  avatar:  /images/avatar.jpeg
 toc: true
 categories:
   - '⛓️‍💥代码复现'

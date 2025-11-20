@@ -4,6 +4,11 @@ draft: false
 title: TimesMixer 复现 第一篇
 math: true
 toc: true
+author: 
+  name: 溶 err
+  link:
+  email:
+  avatar:  /images/avatar.jpeg
 categories:
   - '⛓️‍💥代码复现'
 ---

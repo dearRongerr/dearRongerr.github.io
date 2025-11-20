@@ -1,6 +1,11 @@
 ---
 date: 2025-05-06T21:59:57+08:00
 draft: false
+author: 
+  name: 溶 err
+  link:
+  email:
+  avatar:  /images/avatar.jpeg
 title: Python 查看模型参数
 math: true
 toc: true

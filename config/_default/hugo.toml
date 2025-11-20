@@ -5,7 +5,7 @@
 
 title = "溶 err 的博客"
 url= "https://dearRongerr.github.io"
-baseurl=""   # 如果是 user site 必须为空
+baseurl="https://dearRongerr.github.io"   # 如果是 user site 必须为空
 theme = [
   "FixIt",
   "cmpt-flyfish",
@@ -21,6 +21,6 @@ enableEmoji = true
 enableGitInfo = true
 relativeURLs = false
 buildDrafts = false
-summaryLength = 1
+summaryLength = 3
 # ignore some build errors
 ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]

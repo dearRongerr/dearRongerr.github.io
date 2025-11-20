@@ -11,6 +11,11 @@ math: true
 # # '注意力机制'  ,  '入门'  ,  'Sticks':注意事项,  'TODO'
 # tags: ["注意力机制"]
 toc: true
+author: 
+  name: 溶 err
+  link:
+  email:
+  avatar:  /images/avatar.jpeg
 categories:
   - '🧚🏻‍♀️ 深度学习'
 ---

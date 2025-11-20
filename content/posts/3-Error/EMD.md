@@ -11,6 +11,11 @@ math: true
 # # '注意力机制'  ,  '入门'  ,  'Sticks':注意事项,  'TODO'
 # tags: ['库安装','捉个虫','TimeSeries']
 toc: true
+author: 
+  name: 溶 err
+  link:
+  email:
+  avatar:  /images/avatar.jpeg
 tags:
   - Python
 categories:

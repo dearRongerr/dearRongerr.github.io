@@ -4,6 +4,11 @@ draft: false
 title: TimesNet 论文再读
 math: true
 toc: true
+author: 
+  name: 溶 err
+  link:
+  email:
+  avatar:  /images/avatar.jpeg
 categories:
   - '📜文献阅读'
 ---

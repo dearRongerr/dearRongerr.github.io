@@ -2,6 +2,11 @@
 date: '2025-05-02T23:16:39+08:00'
 lastmod: '2025-05-02T23:16:39+08:00'
 draft: false
+author: 
+  name: 溶 err
+  link:
+  email:
+  avatar:  /images/avatar.jpeg
 title: '逐步 | 时间序列模型单独摘出来'
 math: true
 # 'Hugo'  ,  'Python'  ,  'DeepLearning'  ,  'Statistics','VSCode'

@@ -3,6 +3,11 @@ date: '2025-04-29T12:18:16+08:00'
 lastmod: '2025-04-29T12:18:16+08:00'
 draft: false
 title: '2025-04-29 Tuesday'
+author: 
+  name: 溶 err
+  link:
+  email:
+  avatar:  /images/avatar.jpeg
 math: true
 # 'Hugo'  ,  'Python'  ,  'DeepLearning'  ,  'Statistics','VSCode'
 # categories: ['Diary']

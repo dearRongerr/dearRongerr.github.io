@@ -5,13 +5,13 @@ lightgallery: false
 password:
 message:
 repost:
-  enable: true
+  enable: false
   url:
 author: 
   name: 溶 err
   link:
   email:
-  avatar:  images/avatar.jpeg # 可能报错
+  avatar:  /images/avatar.jpeg # 可能报错
 license:
 comment: true
 weight: 0

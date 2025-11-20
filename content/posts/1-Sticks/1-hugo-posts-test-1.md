@@ -3,6 +3,11 @@ date: 2025-05-05T16:55:49+08:00
 draft: false
 title: "Hugo + Obsidian + QuickAdd "
 math: true
+author: 
+  name: 溶 err
+  link:
+  email:
+  avatar:  /images/avatar.jpeg
 # tags: ["Hugo"]
 # series: ["Hugo + Obsidian"]
 series_order: 1       # 文章在系列中的顺序

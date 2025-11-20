@@ -7,7 +7,7 @@ author:
   name: 溶 err
   link:
   email:
-  avatar:  images/avatar.jpeg # 可能报错
+  avatar:  /images/avatar.jpeg
 license:
 comment: true
 weight: 0
@@ -20,15 +20,15 @@ resources:
     src: featured-image.jpg
   - name: featured-image-preview
     src: featured-image-preview.jpg
-    toc: true
-    math: true
-    title: '备忘录 | Git基础命令'
-    subtitle:
-    date: 2025-11-20T11:00:55+08:00
+toc: true
+math: true
+title: '备忘录 | Git基础命令'
+subtitle:
+date: 2025-11-20T11:00:55+08:00
 # 常用标签
 # Hugo Python Shell MacOS VsCode Matplotlib
 tags:
-  - 
+  - Git
 # 常用分类
 # '📝便签' | '🕷️捉个虫' | '🧚🏻‍♀️深度学习' | '📜文献阅读' | '⛓️‍💥代码复现' | 
 # '⛄好用的代码片' | '📈统计学' | '🖇️碎笔论文' | '📮收纳箱'

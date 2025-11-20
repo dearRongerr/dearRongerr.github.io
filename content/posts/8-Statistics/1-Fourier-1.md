@@ -5,6 +5,11 @@ title: 傅里叶变换 a+bi
 description: "python 程序执行傅里叶分解的结果是 a+bi,复指数形式,三角函数形式"
 math: true
 toc: true
+author: 
+  name: 溶 err
+  link:
+  email:
+  avatar:  /images/avatar.jpeg
 categories:
   - '📈统计学'
 ---

@@ -1,11 +1,18 @@
-+++
-date = '2025-04-21T08:26:34+08:00'
-draft = false
-title = 'Hugo命令 backup'
-math =  true
-categories = ['📝便签']
-tags = ['Hugo']
-+++
+---
+date : '2025-04-21T08:26:34+08:00'
+draft : false
+title : '备忘录 | Hugo基础命令'
+math : true
+categories :
+- '⛄好用的代码片'
+tags : 
+ - 'Hugo'
+author: 
+  name: 溶 err
+  link:
+  email:
+  avatar:  /images/avatar.jpeg
+---
 
 ## 新建站点
 
@@ -31,6 +38,9 @@ hugo new content/post/04/21/DEA-Net.md
 ```go
 hugo server -D --navigateToChanged
 hugo server
+hugo server -D
+hugo server --port 1313
+hugo --cleanDestinationDir && hugo serve
 ```
 
 ## 推送远程
@@ -70,4 +80,3 @@ series: ["Hugo + Obsidian"]
 series_order: 1       # 文章在系列中的顺序
 ---
 ```
-

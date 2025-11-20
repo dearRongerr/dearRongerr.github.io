@@ -5,6 +5,11 @@ title: TimeMixer 代码复现 第二篇
 description: TimeMixer 的调用类图
 math: true
 toc: true
+author: 
+  name: 溶 err
+  link:
+  email:
+  avatar:  /images/avatar.jpeg
 categories:
   - '⛓️‍💥代码复现'
 ---

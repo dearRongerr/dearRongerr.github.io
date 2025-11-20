@@ -5,6 +5,11 @@ draft: false
 title: Matplotlib科研绘图设置
 math: true
 toc: true
+author: 
+  name: 溶 err
+  link:
+  email:
+  avatar:  /images/avatar.jpeg
 categories:
   - '📝便签'
 tags:

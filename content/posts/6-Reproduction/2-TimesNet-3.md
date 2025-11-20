@@ -4,6 +4,11 @@ draft: false
 title: TimesNet 代码复现 第三篇
 math: true
 toc: true
+author: 
+  name: 溶 err
+  link:
+  email:
+  avatar:  /images/avatar.jpeg
 categories:
   - '⛓️‍💥代码复现'
 ---

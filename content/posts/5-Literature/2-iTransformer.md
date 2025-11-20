@@ -2,7 +2,12 @@
 date: '2025-05-02T21:43:38+08:00'
 lastmod: '2025-05-02T21:43:38+08:00'
 draft: false
-title: 'iTransformer'
+author: 
+  name: 溶 err
+  link:
+  email:
+  avatar:  /images/avatar.jpeg
+title: '文献阅读iTransformer'
 math: true
 # 'Hugo'  ,  'Python'  ,  'DeepLearning'  ,  'Statistics','VSCode'
 # categories: ['PaperReading']
