@@ -1,0 +1,60 @@
+{{- $fingerprint := .Site.Store.Get "fingerprint" -}}
+{{- $autoTranslate := .Site.Params.autoTranslate -}}
+{{- $frontMatter := .Params.autoTranslate -}}
+{{- $languages := site.Store.Get "languages" -}}
+
+{{- if $autoTranslate.enable -}}
+  {{- /* translate.js */ -}}
+  {{- $cdn := "" -}}
+  {{- if hugo.IsProduction -}}
+    {{- $cdn = $autoTranslate.cdn -}}
+  {{- end -}}
+  {{- $source := $cdn | default "lib/translate.js" -}}
+  {{- dict "Source" $source "Fingerprint" $fingerprint "Defer" true "Minify" hugo.IsProduction | dict "Page" . "Data" | partial "store/script.html" -}}
+
+  {{- /* Config script */ -}}
+  {{- $hugoLangCodes := slice -}}
+  {{- $hugoLangMap := dict -}}
+  {{- range .AllTranslations }}
+    {{- $hugoLangCodes = $hugoLangCodes | append .Language.LanguageCode -}}
+    {{- $hugoLangMap = $hugoLangMap | merge (dict .Language.LanguageCode .RelPermalink) -}}
+  {{- end -}}
+  {{- $config := dict "hugoLangCodes" $hugoLangCodes "hugoLangMap" $hugoLangMap -}}
+  {{- with $frontMatter.local -}}
+    {{- $config = dict "local" . | merge $config -}}
+  {{- end -}}
+  {{- with $frontMatter.fromLanguages -}}
+    {{- $config = dict "fromLanguages" . | merge $config -}}
+  {{- end -}}
+  {{- if $frontMatter.onlyLocalLang -}}
+    {{- $config = dict "onlyLocalLang" true | merge $config -}}
+  {{- end -}}
+  {{- with .Site.Data.nomenclature -}}
+    {{- $config = dict "nomenclature" . | merge $config -}}
+  {{- end -}}
+  {{- $configJS := $config | jsonify | printf "window.ATConfig=%s;" -}}
+  {{- if hugo.IsServer -}}
+    {{- $configJS = add $configJS "console.log('Auto Translate config:', window.ATConfig);" -}}
+  {{- end -}}
+  {{- $configJS | dict "Content" | dict "Page" . "Data" | partial "store/script.html" -}}
+
+  {{- /* translate.fixit.js */ -}}
+  {{- $options := dict "targetPath" "js/translate.fixit.min.js" "minify" hugo.IsProduction -}}
+  {{- $params := dict
+    "service" ($autoTranslate.service | default "client.edge")
+    "languages" ($autoTranslate.languages | default slice)
+    "ignoreID" ($autoTranslate.ignoreID | default slice)
+    "ignoreClass" ($autoTranslate.ignoreClass | default slice)
+    "ignoreTag" ($autoTranslate.ignoreTag | default slice)
+    "ignoreSelector" ($autoTranslate.ignoreSelector | default slice)
+    "ignoreText" ($autoTranslate.ignoreText | default slice)
+    "detectLocalLanguage" ($autoTranslate.detectLocalLanguage | default false)
+    "supportLanguages" ($languages | default slice)
+    "enterprise" ($autoTranslate.enterprise | default false)
+  -}}
+  {{- $options = dict "params" $params | merge $options -}}
+  {{- if not hugo.IsProduction -}}
+    {{- $options = dict "sourceMap" "inline" | merge $options -}}
+  {{- end -}}
+  {{- dict "Source" "js/translate.fixit.ts" "Build" $options "Fingerprint" $fingerprint "Defer" true | dict "Page" . "Data" | partial "store/script.html" -}}
+{{- end -}}

@@ -1,0 +1,40 @@
+{
+  "name": "cmpt-translate",
+  "version": "1.10.2",
+  "private": true,
+  "packageManager": "pnpm@9.15.0",
+  "description": "A component for website automatic translation base on translate.js.",
+  "author": "Lruihao (https://github.com/Lruihao)",
+  "license": "MIT",
+  "homepage": "https://github.com/hugo-fixit/cmpt-translate#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugo-fixit/cmpt-translate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hugo-fixit/cmpt-translate/issues"
+  },
+  "keywords": [
+    "i18n",
+    "translate.js",
+    "hugo",
+    "hugo-theme-fixit",
+    "theme-component"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "cp": "cp node_modules/i18n-jsautotranslate/index.js assets/lib/translate.js",
+    "lint": "eslint assets/js",
+    "lint:fix": "eslint assets/js --fix",
+    "version": "auto-changelog-plus -p"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^6.2.0",
+    "auto-changelog-plus": "^1.2.2",
+    "eslint": "^9.35.0",
+    "i18n-jsautotranslate": "^3.18.89"
+  }
+}

@@ -1,0 +1,26 @@
+# -------------------------------------------------------------------------------------
+# Hugo Configuration
+# See: https://gohugo.io/getting-started/configuration/
+# -------------------------------------------------------------------------------------
+
+title = "溶 err 的博客"
+url= "https://dearRongerr.github.io"
+baseurl=""   # 如果是 user site 必须为空
+theme = [
+  "FixIt",
+  "cmpt-flyfish",
+  "shortcode-docs-bookmark",
+  "cmpt-translate",
+]
+defaultContentLanguage = "zh-cn"
+languageCode = "zh-CN"
+languageName = "简体中文"
+hasCJKLanguage = true
+enableRobotsTXT = true
+enableEmoji = true
+enableGitInfo = true
+relativeURLs = false
+buildDrafts = false
+summaryLength = 1
+# ignore some build errors
+ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
