@@ -12,6 +12,9 @@ author:
   link:
   email:
   avatar:  /images/avatar.jpeg
+
+keywords:
+    - 'Hugo'
 ---
 
 ## 新建站点
