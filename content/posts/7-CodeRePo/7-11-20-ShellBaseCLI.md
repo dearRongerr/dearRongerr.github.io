@@ -46,13 +46,34 @@ summary:
 
 <!--more-->
 
+## 脚本与 GPU 卡控制
+
 ### 控制脚本看到几张卡
 
 ```shell
 export CUDA_VISIBLE_DEVICES=1
 ```
 
-### 脚本配置文件
+
+
+**两张卡都跑实验**
+
+让系统只能看到第 1 张卡，然后映射 到 index=0
+
+```python
+os.environ["CUDA_VISIBLE_DEVICES"] = '1'
+device = torch.device('cuda:0')   # 映射后第 0 张
+```
+
+![image-20251121104329528](https://cdn.jsdelivr.net/gh/dearRongerr/PicGo@main/202511211045272.png)  
+
+**终端验证**：
+
+![image.png](https://cdn.jsdelivr.net/gh/dearRongerr/PicGo@main/202511211045273.png) 
+
+
+
+## 脚本配置文件
 
 > 打开 launch.json、点击小虫子
 

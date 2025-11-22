@@ -1,5 +1,5 @@
 ---
-slug: f991458
+slug: 0e4a49cd77
 draft: false
 lightgallery: false
 password:
@@ -26,15 +26,13 @@ resources:
     src: featured-image-preview.jpg
 toc: true
 math: true
-title: 服务器跑代码
+title: 备忘录 | 服务器进程管理
 subtitle:
-date: 2025-11-20T19:41:16+08:00
+date: 2025-11-22T11:28:17+08:00
 # 常用标签
-# Hugo Python Shell MacOS VsCode Matplotlib
+# Hugo Python Shell MacOS VsCode Matplotlib Git Github BugFix
 tags:
-  - SOP
-  - Shell
-  - Python
+  - Bash
 # 常用分类
 # '📝便签' | '🕷️捉个虫' | '🧚🏻‍♀️深度学习' | '📜文献阅读' | '⛓️‍💥代码复现' | 
 # '⛄好用的代码片' | '📈统计学' | '🖇️碎笔论文' | '📮收纳箱' | '🍎来跟我点点点'
@@ -46,29 +44,30 @@ summary:
 # See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
 ---
 
-复现别人代码的时候，一定要记得管理环境
+<!--more-->
+
+
+
 
 ```bash
-ls -ltr
-cd 
-python3 -m pip install virtualenv --user
-python3 -m virtualenv SegRNN
-source SegRNN/bin/activate
-pip install -r requirements.txt
-pip install -U debugpy
-
-screen -S Screen_name
 nvidia-smi
-ps -fp PID
-# 截断输出
-ps -fp 2696968 | cat 
-插件市场：python、python debug、bash debug
-command + Shift + P
-command + ,
-# 监控终端 GPU 使用 每秒刷新
-watch -n 1 nvidia-smi  
-# 实时监控活跃进程的资源变化(快捷键： z：显示彩色界面，更易区分进程状态 、q：退出 top 界面）（R 表示运行中（正在占用 CPU）
-top 
-# 查看所有活跃 Python 进程
-ps aux | grep -E 'python|python3' | grep -v 'Z' | grep -v 'grep'
+# 进程PID查看正在运行的进程，这里的 Time并非实际的进程运行时间
+ps 1386547 
+
+# 查看指定进程的启动时间
+ps -o lstart= -p 1386547 
+
+#查看所有进程的启动时间
+ps -C python -o pid,lstart,cmd 
+
+ # 查看最新启动的活着的进程
+ps -C python -o pid,lstart,cmd --no-headers | grep -v '\[python\] <defunct>' | tail -n 1
+
+#所有活着的进程，去掉僵尸进程
+ps -C python -o pid,lstart,cmd --no-headers | grep -v '\[python\] <defunct>' 
 ```
+
+
+
+
+

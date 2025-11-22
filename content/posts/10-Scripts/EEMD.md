@@ -5,6 +5,11 @@ draft: false
 title: 'EEMD'
 math: true
 toc: true
+author: 
+  name: 溶 err
+  link:
+  email:
+  avatar:  /images/avatar.jpeg 
 categories:
   - '🖇️碎笔论文'
 ---

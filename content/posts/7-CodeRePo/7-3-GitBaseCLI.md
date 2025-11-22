@@ -116,3 +116,16 @@ git remote remove origin
 git remote -v
 ```
 
+## .gitignore
+
+> 场景：养成初始化本地仓库，就新建 `.gitignore` ，点击[这里](https://dearrongerr.github.io/Rongerr.github.io/sticks/1_github_v3/?h=.git)可看示例
+
+```bash
+__pycache__/
+logs/
+*.log
+.DS_Store
+
+
+.gitignore
+```

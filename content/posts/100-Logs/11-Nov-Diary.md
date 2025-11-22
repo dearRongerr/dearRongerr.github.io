@@ -43,6 +43,10 @@ summary:
 
 <!--more-->
 
+## 2025-11-21 Friday 
+
+新更新的copilot真难用
+
 ## 2025-11-20 Thursday
 
 7-3-GitBASECLI

@@ -5,6 +5,11 @@ title: DFT 例题
 description: "复数形式, 三角函数形式"
 math: true
 toc: true
+author: 
+  name: 溶 err
+  link:
+  email:
+  avatar:  /images/avatar.jpeg 
 categories:
   - '📈统计学'
 ---

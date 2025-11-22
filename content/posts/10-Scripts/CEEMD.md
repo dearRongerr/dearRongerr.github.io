@@ -4,6 +4,11 @@ lastmod: '2025-04-30T11:08:19+08:00'
 draft: false
 title: 'CEEMD'
 math: true
+author: 
+  name: 溶 err
+  link:
+  email:
+  avatar:  /images/avatar.jpeg 
 # 'Hugo'  ,  'Python'  ,  'DeepLearning'  ,  'Statistics','VSCode'
 # categories: ['TimeSeries']
 # series: [""]  # 添加此行，用于系列文章

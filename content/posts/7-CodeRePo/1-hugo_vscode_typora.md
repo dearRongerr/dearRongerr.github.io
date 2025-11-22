@@ -1,15 +1,22 @@
-+++
-date = '2025-11-19T09:45:28+08:00'
-draft = false
-title = 'vscode + hugo + Typora 工作流'
+---
+date : '2025-11-19T09:45:28+08:00'
+draft : false
+title : 'vscode + hugo + Typora 工作流'
 # 常用分类
 # '📝便签' | '🕷️捉个虫' | '🧚🏻‍♀️深度学习' | '📜文献阅读' | '⛓️‍💥代码复现' | 
 # '⛄好用的代码片' | '📈统计学' | '🖇️碎笔论文' | '📮收纳箱'
-categories = ['⛄好用的代码片']
+categories :
+    - '⛄好用的代码片'
 # 'Python' 'Hugo' ''Shell' 'SOP' 'Typora' 'VsCode'
-tags = ['SOP','Hugo'] 
-collections = []
-+++
+tags : 
+    - 'SOP'
+    - 'Hugo'
+author: 
+  name: 溶 err
+  link:
+  email:
+  avatar:  /images/avatar.jpeg 
+---
 
 
 
