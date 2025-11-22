@@ -32,7 +32,7 @@ date: 2025-11-21T17:19:31+08:00
 # 常用标签
 # Hugo Python Shell MacOS VsCode Matplotlib Git Github BugFix
 tags:
-  - 
+  - '伪代码'
 # 常用分类
 # '📝便签' | '🕷️捉个虫' | '🧚🏻‍♀️深度学习' | '📜文献阅读' | '⛓️‍💥代码复现' | 
 # '⛄好用的代码片' | '📈统计学' | '🖇️碎笔论文' | '📮收纳箱' | '🍎来跟我点点点'
@@ -138,15 +138,22 @@ Linear就没啥好说的了
 ## 封装组件
 
 - nn.Sequential()
+- FFN=nn.Sequence(Linear,ReLU,Dropout,Linear)
+- 1×1 卷积 $\iff$ Linear
+- 如果想要设计一个bottleNeck，特别是对于 Linear 和 Conv 来说，需要明确指定输入维度和输出维度时，隐藏层维度的设计可以非常灵活，写成固定的值，或者输入维度的倍数，这样就不用重复定义层，做到参数共享
 
+## 形状变化小部件
 
+重点理解使用场景
 
-## 形状变换函数
-
-- permute
-- reshape
-- transpose
-- view
+- view：
+  - 内存连续时使用
+  - 如果前面用了transpose/permute，要加contiguous()；transpose(1,2).contiguous().view(B,-1)
+  - 如果确定前面没有用transpose/permute，大胆的 view
+- transpose：两轴互换
+- permute：各种轴互换
+- reshape：拿不准就 reshape，不出错，而且可以拆维度&合并维度；就是会偷偷copy，导致涨内存
+- squeeze（挤，减），unsqueeze（吹，加） 一个维度=1 的轴；啥时候用，想用的操作算子要求两维或者三维，但是手里的数据维度不够。
 
 
 
@@ -597,3 +604,53 @@ print("Total parameters:", total_params)  # 总参数量
 '''
 ```
 
+
+
+## 各种伪代码
+
+### ==**名称：三维转二维，Linear 伪代码**== 
+
+输入：$input \in R^{B\times L \times D}$
+
+输出：$output \in R^{B\times P \times D}$
+
+步骤：
+
+1. $x \in R^{B\times LD } \gets reshape(input,shape=(B\times L \times D))$ 
+2. $y \in R^{B\times PD}\gets Linear(x,shape=(B\times LD );(in\_feature=LD,out\_feature=PD))$ 
+3. $output\in R^{B\times P \times D} \gets reshape(y,shape=(B\times PD))$ 
+
+更简洁：
+
+1. $x \in R^{B\times LD } \gets reshape(input;(B,-1)) $ 
+2. $y \in R^{B\times PD}\gets Linear(x;(LD,PD))$  
+3. $output\in R^{B\times P \times D} \gets reshape(y;(B,P,D)) $  
+
+### **==名称：1D 卷积&Linear 的等价性==**
+
+输入：$input\in R^{B\times L \times D}$
+
+输出：$output\in R^{B\times L \times d}$
+
+Linear 步骤：
+
+1. $output \in R^{B\times L \times d}\gets Linear(input;(D,d)) $
+
+$params=Dd+d$ 
+
+Conv步骤：
+
+1. $ x\in R^{B\times D \times L} \gets transpose(input;(1,2))$
+2. $y \gets conv1d(x;(C\_in=D,C\_out=d,kernel\_size=1,bias=True))  $  
+3. $ output \in R^{B\times L \times d} \gets transpose(y;(1,2))$
+
+$params=C\_in \times C\_out \times kernel\_size+ C\_out $  
+
+
+
+
+
+## 参数量公式
+
+- Linear $(in_{dim}+1) \times out_{dim}$
+- Conv1d： $C_{in} \times C_{out}\times k+C_{out}$ 
