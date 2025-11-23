@@ -17,7 +17,7 @@ author:
   email:
   avatar:  /images/avatar.jpeg
 categories:
-  - '🧚🏻‍♀️ 深度学习'
+  - '🧚🏻‍♀️深度学习'
 ---
 
 > 用于遥感检测的多核inception网络

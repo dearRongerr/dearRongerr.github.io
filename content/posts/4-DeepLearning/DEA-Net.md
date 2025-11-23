@@ -16,7 +16,7 @@ author:
   email:
   avatar:  /images/avatar.jpeg
 categories:
-  - '🧚🏻‍♀️ 深度学习'
+  - '🧚🏻‍♀️深度学习'
 ---
 
 基于细节增强卷积和内容引导注意力的单图像去雾

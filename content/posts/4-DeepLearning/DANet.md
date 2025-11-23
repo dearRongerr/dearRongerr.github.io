@@ -16,7 +16,7 @@ author:
   email:
   avatar:  /images/avatar.jpeg
 categories:
-  - '🧚🏻‍♀️ 深度学习'
+  - '🧚🏻‍♀️深度学习'
 ---
 
 DANet双向注意力网络

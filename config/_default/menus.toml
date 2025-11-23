@@ -47,6 +47,7 @@
   weight = 3
   [main.params]
     icon = "fa-solid fa-tags"
+
 [[main]]
   identifier = "collections"
   parent = ""
@@ -55,9 +56,10 @@
   name = "合集"
   url = "/collections/"
   title = ""
-  weight = 4
+  weight =  4
   [main.params]
-    icon = "fa-solid fa-tags"
+    icon = "fa-solid fa-layer-group"
+
 [[main]]
   identifier = "friends"
   parent = ""
@@ -69,6 +71,7 @@
   weight = 5
   [main.params]
     icon = "fa-solid fa-users"
+
 [[main]]
   identifier = "about"
   pre = ""

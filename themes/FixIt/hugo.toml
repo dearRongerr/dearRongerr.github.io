@@ -468,7 +468,7 @@ dark = "#252627"
 
 # Search config
 [params.search]
-enable = false
+enable = true # 改：false->true
 # type of search engine ["algolia", "fuse", "cse", "post-chat"]
 type = "fuse"
 # max index length of the chunked content
@@ -635,9 +635,9 @@ fullText = false
 
 # FixIt 0.3.13 | NEW recently updated pages config for archives, section and term list
 [params.recentlyUpdated]
-archives = true
-section = true
-list = true
+archives = false # 改：true->false
+section = false # 改：true->false
+list = false # 改：true->false
 days = 30
 maxCount = 10
 
@@ -874,7 +874,7 @@ fontFamily = "inherit"
 # FixIt 0.3.10 | NEW Busuanzi count
 [params.busuanzi]
 # whether to enable busuanzi count
-enable = false
+enable = true # 改：false->true
 # busuanzi count core script source. Default is https://vercount.one/js
 source = "https://vercount.one/js"
 # whether to show the site views
@@ -901,7 +901,7 @@ thumbnailUrl = ""
 
 # Analytics config
 [params.analytics]
-enable = false
+enable = false # 改：false->true
 
 # Google Analytics
 [params.analytics.google]

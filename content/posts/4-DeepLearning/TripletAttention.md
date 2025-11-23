@@ -14,7 +14,7 @@ author:
   email:
   avatar:  /images/avatar.jpeg
 categories:
-  - '🧚🏻‍♀️ 深度学习'
+  - '🧚🏻‍♀️深度学习'
 ---
 
 已经介绍过得通道注意力的变体:

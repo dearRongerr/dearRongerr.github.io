@@ -17,7 +17,7 @@ author:
   email:
   avatar:  /images/avatar.jpeg
 categories:
-  - '🧚🏻‍♀️ 深度学习'
+  - '🧚🏻‍♀️深度学习'
 ---
 
 topic:  该如何对注意力机制进行改进
