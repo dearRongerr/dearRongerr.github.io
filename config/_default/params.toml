@@ -544,7 +544,7 @@ disableThemeInject = false
   # whether to show the full text content in RSS
   rssFullText = false
   # FixIt 0.3.10 | CHANGED Page style ["narrow", "normal", "wide", ...]
-  pageStyle = "normal"
+  pageStyle = "wide"
   # FixIt 0.2.17 | CHANGED Auto Bookmark Support
   # If true, save the reading progress when closing the page.
   autoBookmark = false
@@ -557,9 +557,9 @@ disableThemeInject = false
   # FixIt 0.2.18 | NEW whether to enable instant.page
   instantPage = false
   # FixIt 0.3.0 | NEW whether to enable collection list at the sidebar
-  collectionList = false
+  collectionList = true
   # FixIt 0.3.0 | NEW whether to enable collection navigation at the end of the post
-  collectionNavigation = false
+  collectionNavigation = true
 
   # FixIt 0.2.15 | NEW Repost config
   [page.repost]
@@ -572,7 +572,7 @@ disableThemeInject = false
     # whether to keep the static table of the contents in front of the post
     keepStatic = false
     # whether to make the table of the contents in the sidebar automatically collapsed
-    auto = true
+    auto = false
     # FixIt 0.2.13 | NEW position of TOC ["left", "right"]
     position = "right"
   # FixIt 0.2.13 | NEW Display a message at the beginning of an article to warn the reader that its content might be expired

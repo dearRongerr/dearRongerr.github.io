@@ -26,7 +26,9 @@ resources:
     src: featured-image-preview.jpg
 toc: true
 math: true
-title: 深度学习组件的使用
+collections:
+  - '深度学习模型设计'
+title: '基础 | 深度学习组件的使用'
 subtitle:
 date: 2025-11-21T17:19:31+08:00
 # 常用标签
