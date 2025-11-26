@@ -11,7 +11,7 @@ author:
   email:
   avatar:  /images/avatar.jpeg
 categories:
-  - '📝便签'
+  - '⛄好用的代码片'
 tags:
   - Matplotlib
 ---
@@ -38,6 +38,27 @@ plt.rcParams['ytick.labelsize'] = 10  # y轴刻度标签字体大小
 plt.rcParams['legend.fontsize'] = 10  # 图例字体大小
 plt.rcParams['figure.dpi'] = 300  # 设置分辨率
 ```
+## 设置刻度朝向
+
+```python
+plt.rcParams['xtick.direction'] = 'in'
+plt.rcParams['ytick.direction'] = 'in'
+```
+
+## 设置中文字体
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib.font_manager as fm
+
+#  绑定系统宋体
+fm.fontManager.addfont('/System/Library/Fonts/Supplemental/Songti.ttc')
+plt.rcParams['font.family'] = 'Songti SC'        # 中文
+plt.rcParams['mathtext.fontset'] = 'stix'        # 公式英文
+plt.rcParams['axes.unicode_minus'] = False       # 负号
+```
+
 
 ## 紧凑布局
 

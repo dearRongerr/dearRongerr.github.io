@@ -30,12 +30,13 @@ title:  服务器 + Tensorboard使用
 subtitle:
 date: 2025-11-25T08:43:20+08:00
 # 常用标签
-# Hugo Python Shell MacOS VsCode Matplotlib Git Github BugFix
+# Hugo Python Shell MacOS VsCode Matplotlib Git Github BugFix Screen SOP
 tags:
   - Shell
   - Python
   - Screen
   - VsCode
+  - SOP
 # 常用分类
 # '📝便签' | '🕷️捉个虫' | '🧚🏻‍♀️深度学习' | '📜文献阅读' | '⛓️‍💥代码复现' | 
 # '⛄好用的代码片' | '📈统计学' | '🖇️碎笔论文' | '📮收纳箱' | '🍎来跟我点点点' | '草稿'

@@ -11,7 +11,7 @@ author:
   name: 溶 err
   link:
   email:
-  avatar:  /images/avatar.jpeg # 可能报错
+  avatar:  /images/avatar.jpeg
 license:
 comment: true
 weight: 0
@@ -30,7 +30,8 @@ title: {{ replace .TranslationBaseName "-" " " | title }}
 subtitle:
 date: {{ .Date }}
 # 常用标签
-# Hugo Python Shell MacOS VsCode Matplotlib Git Github BugFix
+# Hugo Python Shell MacOS VsCode Matplotlib Git Github BugFix Screen SOP
+
 tags:
   - 
 # 常用分类
