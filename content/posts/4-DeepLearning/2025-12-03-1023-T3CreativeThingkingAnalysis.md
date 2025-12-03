@@ -26,7 +26,7 @@ resources:
     src: featured-image-preview.jpg
 toc: true
 math: true
-title: 三区为例，科研论文创新性分析
+title: 三区为例，科研论文创新性思维分析
 subtitle:
 date: 2025-12-03T10:23:54+08:00
 # 常用标签
