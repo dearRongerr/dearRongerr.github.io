@@ -1,5 +1,5 @@
 ---
-slug: 6431c0ff50
+slug: 469f56fdd9
 draft: false
 lightgallery: false
 password:
@@ -26,9 +26,9 @@ resources:
     src: featured-image-preview.jpg
 toc: true
 math: true
-title: 12 月
+title: 三区为例，科研论文创新性分析
 subtitle:
-date: 2025-12-01T20:04:51+08:00
+date: 2025-12-03T10:23:54+08:00
 # 常用标签
 # Hugo Python Shell MacOS VsCode Matplotlib Git Github BugFix Screen SOP
 
@@ -38,22 +38,33 @@ tags:
 # '📝便签' | '🕷️捉个虫' | '🧚🏻‍♀️深度学习' | '📜文献阅读' | '⛓️‍💥代码复现' | 
 # '⛄好用的代码片' | '📈统计学' | '🖇️碎笔论文' | '📮收纳箱' | '🍎来跟我点点点' | '草稿'
 categories:
-  - '📮收纳箱'
+  - '📜文献阅读'
 description:
 keywords:
-summary:
+summary: 模块方法千千万，主线必须一条清晰
 # See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
 ---
 
 <!--more-->
 
-## 2025-12-01 Monday 
+标题：《MS-HRNet: multi-scale high-resolution network for human pose estimation.》
 
-12 月啦，加油加油。
+期刊：The Journal of Supercomputing
 
-永远不要陷入受害者叙事。
+分级：三区
 
-13:16:57 | 很喜欢的一个系列的文章地址失效了，我再也不会动购买域名的心思了🥲我了解我。
+总结：
 
-14:20:16 | 定义、作用叙述法。
+- 改进了 HRNet
+- 提出了 MSBlock：就是改进了残差块，感受野变大了，原理是因为通过看论文，发现大核更好（通过实验，确定自己的卷积核大小）
+
+![image-20251203091619512](https://cdn.jsdelivr.net/gh/dearRongerr/PicGo@main/202512030917099.png)
+
+- 引入了坐标注意力
+
+![image-20251203091330121](https://cdn.jsdelivr.net/gh/dearRongerr/PicGo@main/202512030917101.png)
+
+![image-20251203091441507](https://cdn.jsdelivr.net/gh/dearRongerr/PicGo@main/202512030917102.png)
+
+- 特点：实验丰富
 

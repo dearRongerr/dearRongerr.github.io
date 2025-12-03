@@ -26,7 +26,7 @@ resources:
     src: featured-image-preview.jpg
 toc: true
 math: true
-title:  LaTex
+title:  备忘录 | LaTex
 subtitle:
 date: 2025-12-01T20:07:50+08:00
 # 常用标签
@@ -41,19 +41,24 @@ categories:
   - '⛄好用的代码片'
 description:
 keywords:
-summary:
+summary: 关于 LaTex 的一些
 # See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
 ---
 
 ## 公式
 
-## 普通公式
+### 普通公式
 
 ```LaTex
 \begin{equation}\label{eq:sip}
     a_1 + b_2 = 3
 \end{equation}
 ```
+
+$$
+a_1 + b_2 = 3
+$$
+    
 
 ### 多行公式
 
@@ -67,7 +72,7 @@ summary:
 
 
 $$
-\begin{gather}\label{eq:add}
+\begin{gather}
     1+1=2 \\
     2+2=4 \\
     3+3=6 \nonumber
@@ -88,14 +93,12 @@ $$
 ```
 
 $$
-\begin{equation}\label{eq:multi}
     \mathbf{X}=
     \begin{cases}
         k_n \quad & n \ = \ 1  \\
         \mathbf{X}_n \ = \mathbf{X}_{n-1}\ +\ (k_n-1)\times S_{n-1};
         \quad     & n \geq \ 1 \\
     \end{cases}
-\end{equation}
 $$
 
 
