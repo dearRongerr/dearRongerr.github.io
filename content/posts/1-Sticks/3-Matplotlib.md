@@ -47,6 +47,24 @@ plt.rcParams['ytick.direction'] = 'in'
 
 ## 设置中文字体
 
+本地中文字体注册：
+
+```bash
+/System/Library/Fonts/Supplemental/Songti.ttc
+```
+
+- 存的字体文件
+  - 链接: [https://pan.baidu.com/s/1N2LN_jhiADVNViR2jlpzCg?pwd=htsk](https://pan.baidu.com/s/1N2LN_jhiADVNViR2jlpzCg?pwd=htsk) 提取码: htsk
+- matplotlib+MacOS 中英文字体混排的坑
+  - 首先，MacOS 上的 Songti.ttc是加粗的
+  - 其次，Simsun.ttc才是常规的宋体
+  - 这里有：字号设置不生效（因为设置了全局字体）、中文字体自动加粗（因为是Songti.ttc）的矛盾
+  - 解决：弄个 `Simsun.ttc` 就好
+
+> 这里给到的建议就是，直接都用英文就好了。没有强制要求中文，又何必请求，麻烦而且不好看。
+
+
+
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
