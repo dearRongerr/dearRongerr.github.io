@@ -1,5 +1,6 @@
 ---
 date: '2025-04-20T22:22:30+08:00'
+lastmod: '2025-04-20T22:22:30+08:00'
 draft: false
 title: 'SENet'
 math: true

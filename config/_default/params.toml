@@ -46,7 +46,7 @@ disableThemeInject = false
 # FixIt 0.3.0 | NEW public Git repository information only then enableGitInfo is true
 [gitInfo]
   # e.g. "https://github.com/hugo-fixit/docs"
-  repo = "https://github.com/dearRongerr/dearRongerr_blog"
+  repo = "https://github.com/dearRongerr/dearRongerr.github.io"
   branch = "main"
   # the content directory path relative to the root of the repository
   dir = "content"
