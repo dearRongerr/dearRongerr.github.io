@@ -39,19 +39,21 @@ tags:
 # '⛄好用的代码片' | '📈统计学' | '🖇️碎笔论文' | '📮收纳箱' | '🍎来跟我点点点' | '草稿'
 categories:
   - '📝便签'
-description:
-keywords:
-summary:
+description: 
+keywords: 
+summary: 
 # See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
 ---
-
-
 
 **会解决的问题：**
 
 - [x] IEEE参考文献引用，期刊、会议的缩写怎么写
 - [x] 作者数量超过 6 个，怎么缩写
 - [x] 期刊、会议参考文献的显示格式、设置格式
+
+<!--more-->
+
+
 
 ## SOP | IEEE 参考文献引用 
 
@@ -79,9 +81,6 @@ summary:
 ----
 
 bibtex格式的引文可以从google学术、IEEE Xplore等上获取
-
-| ![image-20251211131414194](images/202512111314985.png) |
-| ------------------------------------------------------ |
 
 - IEEE论文参考文献引用格式需要期刊缩写，可以在Web of Science上查看
 
