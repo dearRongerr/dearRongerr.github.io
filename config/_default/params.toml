@@ -192,7 +192,7 @@ disableThemeInject = false
   # FixIt 0.2.13 | NEW recently updated pages config
   # TODO refactor to support archives, section, taxonomy and term
   [section.recentlyUpdated]
-    enable = false
+    enable = true
     rss = false
     days = 30
     maxCount = 10

@@ -1,6 +1,6 @@
 ---
 date: 2025-04-28T10:20:40+08:00
-lastmod: 2025-04-28T10:20:40+08:00
+lastmod: 2025-12-11T22:48:00+08:00
 draft: false
 title: Matplotlib科研绘图设置
 math: true
@@ -15,6 +15,25 @@ categories:
 tags:
   - Matplotlib
 ---
+
+## IEEE画布设置
+
+画布大小：
+
+```
+rcParams['font.family'] = 'Times New Roman'
+rcParams['font.size']   = 9
+
+fontsize_ylabel = 10
+title_fontsize = 11
+# IEEE 双栏最大宽度 7.16 in
+fig_w  =   6       # inch
+fig_h  = 7   # 高宽比 0.6，可自己调
+
+fig, ax = plt.subplots(figsize=(3.5, 2.6))   # 单栏常用宽 3.5 in
+```
+
+
 
 ## 导入库
 
