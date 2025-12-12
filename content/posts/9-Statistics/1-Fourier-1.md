@@ -1,5 +1,6 @@
 ---
 date: 2025-05-07T14:54:42+08:00
+lastmod: 2025-05-07T14:54:42+08:00
 draft: false
 title: 傅里叶变换 a+bi
 description: "python 程序执行傅里叶分解的结果是 a+bi,复指数形式,三角函数形式"

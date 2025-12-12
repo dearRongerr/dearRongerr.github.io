@@ -1,5 +1,6 @@
 ---
 date: 2025-05-09T09:43:41+08:00
+lastmod: 2025-05-09T09:43:41+08:00
 draft: false
 title: DFT 例题
 description: "复数形式, 三角函数形式"
