@@ -1,5 +1,6 @@
 ---
 date: 2025-05-06T20:01:55+08:00
+lastmod: 2025-05-06T20:01:55+08:00
 draft: false
 title: TimeMixer 论文再读
 math: true

@@ -1,5 +1,6 @@
 ---
 date: 2025-05-05T22:29:34+08:00
+lastmod: 2025-05-05T22:29:34+08:00
 draft: false
 title: TimesNet 论文再读
 math: true

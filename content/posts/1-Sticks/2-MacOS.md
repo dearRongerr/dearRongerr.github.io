@@ -1,5 +1,6 @@
 ---
 date: 2025-05-05T18:45:50+08:00
+lastmod: 2025-05-05T18:45:50+08:00
 draft: false
 title: MacOS 自定快捷指令
 math: true

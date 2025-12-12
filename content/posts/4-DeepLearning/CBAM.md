@@ -1,5 +1,6 @@
 ---
 date: '2025-04-20T22:34:32+08:00'
+lastmod: '2025-04-20T22:34:32+08:00'
 draft: false
 title: 'CBAM'
 math: true

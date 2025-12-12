@@ -1,5 +1,6 @@
 ---
 date: 2025-05-06T20:04:34+08:00
+lastmod: 2025-05-06T20:04:34+08:00
 draft: false
 title: TimesMixer 复现 第一篇
 math: true

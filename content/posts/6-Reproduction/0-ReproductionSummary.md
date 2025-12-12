@@ -1,5 +1,6 @@
 ---
 date: '2025-05-01T21:35:31+08:00'
+lastmod: '2025-05-01T21:35:31+08:00'
 draft: false
 title: '代码复现'
 math: true

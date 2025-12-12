@@ -1,5 +1,6 @@
 ---
 date: 2025-05-05T22:49:19+08:00
+lastmod: 2025-05-05T22:49:19+08:00
 draft: false
 title: TimesNet 代码复现 第三篇
 math: true

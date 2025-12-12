@@ -1,5 +1,6 @@
 ---
 date: 2025-05-07T21:36:58+08:00
+lastmod: 2025-05-07T21:36:58+08:00
 draft: false
 title: 2024、TimeMixer
 math: true

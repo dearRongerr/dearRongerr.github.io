@@ -1,5 +1,6 @@
 ---
 date: 2025-05-05T16:55:49+08:00
+lastmod: 2025-05-05T16:55:49+08:00
 draft: false
 title: "Hugo + Obsidian + QuickAdd "
 math: true
