@@ -4,4 +4,4 @@
 # lastmod = ["lastmod", ":git", ":fileModTime", ":defalut"] 改一下
 # -------------------------------------------------------------------------------------
 
-lastmod = ["lastmod",":fileModTime", ":defalut"]
+lastmod = [":fileModTime"]
