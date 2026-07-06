@@ -3,5 +3,5 @@
 # See: https://gohugo.io/content-management/urls/#permalinks
 # -------------------------------------------------------------------------------------
 
-# posts = ":year/:month/:filename"
-posts = "posts/:slugorfilename"
+# posts = ":year/:month/:filename" 部署失败、有更改
+posts = "posts/:slugorcontentbasename"
