@@ -23,7 +23,7 @@ resources:
     src: featured-image-preview.jpg
 toc: true
 math: true
-title: 11 月
+title: "2025 年 11 月 ~"
 subtitle:
 date: 2025-11-19T22:19:58+08:00
 # 常用标签

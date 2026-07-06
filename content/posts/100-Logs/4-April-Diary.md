@@ -2,7 +2,7 @@
 date: '2025-04-29T12:18:16+08:00'
 lastmod: '2025-04-29T12:18:16+08:00'
 draft: false
-title: '2025-04-29 Tuesday'
+title: "2025 年 4 月 ~"
 author: 
   name: 溶 err
   link:
